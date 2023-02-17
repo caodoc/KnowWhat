@@ -1,0 +1,112 @@
+* 
+{
+	box-sizing: border-box;
+}
+
+body 
+{
+	overflow-x: auto;
+	overflow-y: auto;
+    background-image: url("./assets/background.png");
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-color: #36393f;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 32px;
+	color: #ffffff;
+}
+
+a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+input 
+{
+    position: relative;
+    width: 50vw;
+    height: 7.5vh;
+    left: 16vw;
+    border-radius: 5px;
+    border: none;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.5rem;
+}
+
+p 
+{
+    position: relative;
+    top: 10vh;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#container
+{
+	margin: auto auto;
+    position: relative;
+    width: 80vw;
+    height: 90vh;
+}
+
+#title
+{
+    font-size: 2.5rem;
+}
+
+#count
+{
+    top: 2.5vh;
+}
+
+.hidden
+{
+    display: none;
+}
+
+#button_move 
+{
+    position: absolute;
+    width: 125px;
+    height: 50px;
+    left: 10vw;
+    top: 40vh;
+    border: none;
+    background: #ccc;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 20px;
+	color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+#button_submit
+{
+    position: absolute;
+    width: 125px;
+    height: 50px;
+    top: 40vh;
+    right: 25vh;
+    border: none;
+    background: #ccc;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 20px;
+	color: #ffffff;
+}
+
+@media screen and (max-width: 1000px)
+{
+    #button_move 
+    {
+        left: 2.5vw;
+        top: 40vh;
+    }
+
+    #button_submit
+    {
+        top: 40vh;
+        right: 1.5vh;
+    }
+}
