@@ -7,7 +7,7 @@ body
 {
 	overflow-x: auto;
 	overflow-y: auto;
-    background-image: url("./assets/background.png");
+    background-image: url("./assets/background.jpg");
 	background-position: center center;
 	background-attachment: fixed;
 	background-repeat: no-repeat; 
@@ -75,7 +75,8 @@ p
     left: 10vw;
     top: 40vh;
     border: none;
-    background: #ccc;
+	background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px 15px 15px 15px;
     font-family: "JetBrains Mono", monospace;
     font-size: 20px;
 	color: #ffffff;
@@ -90,7 +91,8 @@ p
     top: 40vh;
     right: 25vh;
     border: none;
-    background: #ccc;
+	background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px 15px 15px 15px;
     font-family: "JetBrains Mono", monospace;
     font-size: 20px;
 	color: #ffffff;
@@ -100,13 +102,13 @@ p
 {
     #button_move 
     {
-        left: 2.5vw;
+        left: 1vw;
         top: 40vh;
     }
 
     #button_submit
     {
         top: 40vh;
-        right: 1.5vh;
+        right: 1vw;
     }
 }
